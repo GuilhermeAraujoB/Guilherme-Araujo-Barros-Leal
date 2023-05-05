@@ -80,20 +80,21 @@ header div a:hover {
    gap:20px;
 }
 .card {
-   background-color:green;
+   background-color:rgba(22, 204, 16, 0.807);
 }
 .card_image_container img{
    width:100%;
 }
 .card_content,.card_info {
    padding:24px;
+   color: #0e093d;
 }
 .card_info {
    display:grid;
    grid-template-columns: 1fr 1fr;
 }
 .card_price {
-   background-color: green;
+   background-color: rgb(22, 204, 16, 0.807);
    filter:brightness(90%);
    text-align:center;
    border-radius:30%;
