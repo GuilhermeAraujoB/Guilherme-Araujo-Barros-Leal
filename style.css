@@ -4,43 +4,40 @@
    padding: 0;
    border: 0;
 }
-  body {
-     background-color: #0e093d;
-   }
-   header {
-       padding: 32px;
-       border-bottom: 1px solid #42f515; 
-       background-color: rgba(31, 212, 62, 0.171);
-   }
-   header div {
-       text-align: center; 
-   }
-   header div a {
-         color: white; 
-         font-size: 20px; 
-         line-height: 30px; 
-         margin:  16px; 
-         text-decoration: none;
-         font-family: 'Schibsted Grotesk', sans-serif;
-   }
+body {
+   background-color: #0e093d;
+}
+header {
+   padding: 32px;
+   border-bottom: 1px solid #42f515; 
+   background-color: rgba(31, 212, 62, 0.171);
+}
+header div {
+   text-align: center; 
+}
+header div a {
+   color: white; 
+   font-size: 20px; 
+   line-height: 30px; 
+   margin:  16px; 
+   text-decoration: none;
+   font-family: 'Schibsted Grotesk', sans-serif;
+}
 header div a:hover { 
    color: #42f515; 
    transition: color 450ms; 
 }
-
 #box {
    text-align: center; 
    padding: 32px; 
    color:white;
    font-family: 'Schibsted Grotesk', sans-serif;
 }
-
 #box img {
    border-radius: 50%; 
    border: 5px  solid #f3f2f3 ; 
    margin-bottom: 32px;
 }
-
 #box h1 {
    font-size: 42px;
    line-height: 52px;
@@ -60,17 +57,17 @@ header div a:hover {
    line-height: 34px;
 }
 #linksFooter {
-    padding-top:32px;
-    text-align:center;
-    font-size:24px;
+   padding-top:32px;
+   text-align:center;
+   font-size:24px;
 }
 #linksFooter a{
-    padding-top:32px;
-    padding-bottom:8px;
-    border-bottom: 3px solid #42f515;
-    color:white;
-    text-decoration: none;
-    font-family: 'Schibsted Grotesk', sans-serif;
+   padding-top:32px;
+   padding-bottom:8px;
+   border-bottom: 3px solid #42f515;
+   color:white;
+   text-decoration: none;
+   font-family: 'Schibsted Grotesk', sans-serif;
 }
 .cards {
    max-width:800px;
@@ -129,7 +126,7 @@ header div a:hover {
    opacity:1;
    visibility:visible;
 }
-.iframe {
+iframe {
    width:100%;
    height:90%;
    position:absolute;
