@@ -25,7 +25,7 @@ header div a {
 }
 header div a:hover { 
    color: #42f515; 
-   transition: color 450ms; 
+   transition: 450ms; 
 }
 #box {
    text-align: center; 
@@ -69,6 +69,10 @@ header div a:hover {
    text-decoration: none;
    font-family: 'Schibsted Grotesk', sans-serif;
 }
+#linksFooter a:hover {
+   color:#42f515;
+   transition:450ms;
+}
 .cards {
    max-width:800px;
    margin:0 auto;
@@ -78,9 +82,11 @@ header div a:hover {
 }
 .card {
    background-color:rgba(22, 204, 16, 0.807);
+   border-radius: 5%;
 }
 .card_image_container img{
    width:100%;
+   border-radius:5%;
 }
 .card_content,.card_info {
    padding:24px;

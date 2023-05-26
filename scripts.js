@@ -3,10 +3,13 @@ const cards = document.querySelectorAll('.card');//variavel que procura e guarda
 
 for (let card of cards){
     card.addEventListener("click",function(){
-        modal_overlay.classList.add("active")
+        const videoId= card.getAttribute("id");
+        modal_overlay.classList.add("active");
+        modal_overlay.querySelector("iframe").src =`https://www.youtube.com/embed/${videoId}`;
     })
 }
 
 document.querySelector('.close_modal').addEventListener("click",function(){
     modal_overlay.classList.remove("active")
+    modal_overlay.querySelector("iframe").src="";
 })
